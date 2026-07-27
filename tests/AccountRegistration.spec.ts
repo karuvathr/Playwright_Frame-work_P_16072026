@@ -17,7 +17,7 @@ test.beforeEach(async ({ page }) => {
      await page.goto(config.appUrl);//open the application URL
 })
 test.afterEach(async ({ page }) => {
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(6000);
     //await page.close();
 
 })
