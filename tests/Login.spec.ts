@@ -20,7 +20,7 @@ test.beforeEach(async ({ page }) => {
 })
 test.afterEach(async ({ page }) => {
     await page.waitForTimeout(3000);
-    await page.close();
+   // await page.close();
 
 })
 test('login test Test @master @sanity @regression', async ({ }) => {
